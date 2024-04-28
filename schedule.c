@@ -77,7 +77,7 @@ void vAperiodicTask();
 
 /*-----------------------------------------------------------*/
 
-void ipsa_sched( void )
+void schedule( void )
 {
     
     xTaskCreate(Task1, "PeriodicTask1", configMINIMAL_STACK_SIZE, NULL, PERIODIC_TASK1_PRIORITY, NULL);
